@@ -6,7 +6,7 @@ public class HelloWorld {
         String a = "Hello";
         String b = "World";
         StringBuilder sb = new StringBuilder();
-        sb.append(a).append(b);
+        sb.append(a).append(" ").append(b);
         System.out.println(sb.toString());
 
     }
